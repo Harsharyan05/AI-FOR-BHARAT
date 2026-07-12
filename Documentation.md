@@ -6,10 +6,10 @@
 
 Establish a production-ready backend architecture for Cognisys using FastAPI.
 
----
-
 # Completed
 
 ## Project Structure
 
 Created a scalable backend folder structure.
+
+---
