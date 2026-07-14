@@ -384,3 +384,154 @@ Planned features:
 Repository Intelligence Engine successfully implemented and integrated into the Cognisys backend.
 
 ---
+
+# Day 4 — Software Knowledge Graph Development
+
+**Sprint:** Sprint 05 – Software Knowledge Graph Engine  
+**Status:** ✅ Completed
+
+---
+
+# Objective
+
+The primary objective for Day 4 was to move beyond repository metadata and build the core infrastructure required for representing software projects as a **Knowledge Graph**. This lays the groundwork for future architecture analysis, AI reasoning, and interactive visualizations.
+
+---
+
+# Work Completed
+
+## Knowledge Graph Foundation
+
+Designed and implemented the core graph models used throughout Cognisys.
+
+Implemented components:
+
+- Node
+- Edge
+- KnowledgeGraph
+- NodeType
+- RelationshipType
+
+These structures provide a standardized way to represent software entities and their relationships.
+
+---
+
+## Entity Extraction
+
+Developed an Entity Extractor to traverse repository contents and convert them into graph nodes.
+
+Current supported entities include:
+
+- Repository
+- Folder
+- Python File
+- Documentation
+- Configuration
+- Service
+- API
+- Workflow
+- Technology
+
+---
+
+## Relationship Extraction
+
+Implemented automatic relationship generation between repository entities.
+
+Current supported relationship:
+
+- `contains`
+
+This establishes the structural hierarchy of a repository inside the knowledge graph.
+
+---
+
+## Graph Builder
+
+Implemented a centralized Graph Builder responsible for constructing a complete Software Knowledge Graph from extracted entities and relationships.
+
+Responsibilities include:
+
+- Aggregating graph nodes
+- Creating graph edges
+- Producing a unified graph representation
+
+---
+
+## Graph Serialization
+
+Developed a Graph Serializer for exporting the Knowledge Graph into JSON format.
+
+This enables seamless integration with:
+
+- AI Reasoning Engine
+- Visualization frameworks
+- Graph databases
+- Reporting modules
+
+---
+
+## Intelligent File Classification
+
+Introduced an intelligent file classification engine capable of identifying software roles based on repository conventions.
+
+Current classifications:
+
+- Python File
+- Service
+- Documentation
+- Configuration
+- Technology
+- Workflow
+
+This improves semantic understanding compared to simple file extension detection.
+
+---
+
+# Testing
+
+Successfully validated:
+
+- Graph creation
+- Entity extraction
+- Relationship generation
+- Graph serialization
+- File classification
+
+All generated graph structures were successfully serialized into JSON.
+
+---
+
+# Challenges Faced
+
+- Refined graph model design to support future AI reasoning.
+- Improved entity extraction by excluding unnecessary directories such as `.git`, `__pycache__`, and virtual environments.
+- Enhanced node typing to better represent software architecture.
+
+---
+
+# Outcome
+
+By the end of Day 4, Cognisys evolved from a repository analyzer into a platform capable of constructing a structured **Software Knowledge Graph**.
+
+This graph now serves as the central data model for future modules including:
+
+- Software Architecture Intelligence
+- Dependency Analysis
+- AI-powered Repository Chat
+- Interactive Graph Visualizations
+
+---
+
+# Progress
+
+Sprint 05 Progress:
+
+- ✅ Knowledge Graph Models
+- ✅ Entity Extraction
+- ✅ Relationship Extraction
+- ✅ Graph Builder
+- ✅ Graph Serializer
+- ✅ Intelligent File Classification
+
+Overall Sprint Completion: **~80%**
