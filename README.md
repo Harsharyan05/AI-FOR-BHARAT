@@ -354,5 +354,5 @@ ing" focused than a typical student repo.
 | [🗺️ Roadmap](docs/roadmap/index.md) | Sprint planning and project roadmap |
 | [📅 Development Logs](docs/development/) | Day-by-day engineering updates |
 | [🏗️ Architecture](docs/architecture/) | System architecture and design decisions |
-| [🔌 API Documentation](docs/api/) | Backend API reference |
+| [🔌 API Documentation](https://github.com/Harsharyan05/Cognisys/blob/main/API%20Documentation.md) | Backend API reference |
 | [📊 Changelog](docs/changelog.md) | Version history and milestones |
