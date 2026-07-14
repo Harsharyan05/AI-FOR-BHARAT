@@ -353,6 +353,6 @@ ing" focused than a typical student repo.
 |----------|-------------|
 | [🗺️ Roadmap](https://github.com/Harsharyan05/Cognisys/tree/main/RoadMap) | Sprint planning and project roadmap |
 | [📅 Development Logs](https://github.com/Harsharyan05/Cognisys/blob/main/Development.md) | Day-by-day engineering updates |
-| [🏗️ Architecture](docs/architecture/) | System architecture and design decisions |
+| [🏗️ Architecture](https://github.com/Harsharyan05/Cognisys/blob/main/Architecture.md) | System architecture and design decisions |
 | [🔌 API Documentation](https://github.com/Harsharyan05/Cognisys/blob/main/API%20Documentation.md) | Backend API reference |
 | [📊 Changelog](docs/changelog.md) | Version history and milestones |
