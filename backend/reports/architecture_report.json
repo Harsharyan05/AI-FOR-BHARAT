@@ -1,0 +1,645 @@
+{
+    "hotspots": [
+        {
+            "module": "app.architecture.architecture_engine",
+            "fan_in": 0,
+            "fan_out": 8,
+            "score": 8,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.graph.graph_models",
+            "fan_in": 5,
+            "fan_out": 3,
+            "score": 8,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.architecture.report_generator",
+            "fan_in": 1,
+            "fan_out": 6,
+            "score": 7,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.services.repository_service",
+            "fan_in": 2,
+            "fan_out": 5,
+            "score": 7,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.main",
+            "fan_in": 0,
+            "fan_out": 6,
+            "score": 6,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.ai.embedding_generator",
+            "fan_in": 0,
+            "fan_out": 6,
+            "score": 6,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.ai.vector_store",
+            "fan_in": 1,
+            "fan_out": 5,
+            "score": 6,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.ai.knowledge_document_generator",
+            "fan_in": 0,
+            "fan_out": 5,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.architecture.architecture_models",
+            "fan_in": 3,
+            "fan_out": 2,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.architecture.dependency_graph",
+            "fan_in": 2,
+            "fan_out": 3,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.architecture.hotspot_detector",
+            "fan_in": 3,
+            "fan_out": 2,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.architecture.recommendation_engine",
+            "fan_in": 1,
+            "fan_out": 4,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.parser.repository_cloner",
+            "fan_in": 1,
+            "fan_out": 4,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.parser.technology_detector",
+            "fan_in": 3,
+            "fan_out": 2,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.services.analysis_service",
+            "fan_in": 1,
+            "fan_out": 4,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.services.knowledge_graph_service",
+            "fan_in": 0,
+            "fan_out": 5,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.api.v1.analysis",
+            "fan_in": 1,
+            "fan_out": 4,
+            "score": 5,
+            "risk": "MEDIUM"
+        },
+        {
+            "module": "app.api.router",
+            "fan_in": 1,
+            "fan_out": 3,
+            "score": 4,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.architecture.service_detector",
+            "fan_in": 1,
+            "fan_out": 3,
+            "score": 4,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.core.logger",
+            "fan_in": 2,
+            "fan_out": 2,
+            "score": 4,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.graph.entity_extractor",
+            "fan_in": 1,
+            "fan_out": 3,
+            "score": 4,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.graph.graph_builder",
+            "fan_in": 1,
+            "fan_out": 3,
+            "score": 4,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.parser.dependency_analyzer",
+            "fan_in": 2,
+            "fan_out": 2,
+            "score": 4,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.api.v1.repository",
+            "fan_in": 1,
+            "fan_out": 3,
+            "score": 4,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.chunker",
+            "fan_in": 0,
+            "fan_out": 3,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.chunk_models",
+            "fan_in": 2,
+            "fan_out": 1,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.document_generator",
+            "fan_in": 0,
+            "fan_out": 3,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.embedding_models",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.semantic_search",
+            "fan_in": 0,
+            "fan_out": 3,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.architecture.architecture_pattern_detector",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.architecture.layer_detector",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.architecture.recommendation_models",
+            "fan_in": 2,
+            "fan_out": 1,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.core.config",
+            "fan_in": 2,
+            "fan_out": 1,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.core.constants",
+            "fan_in": 2,
+            "fan_out": 1,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.database.db",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.graph.relationship_extractor",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.parser.architecture_analyzer",
+            "fan_in": 2,
+            "fan_out": 1,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.parser.file_classifier",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.parser.import_graph_builder",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.parser.python_ast_parser",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.parser.repository_scanner",
+            "fan_in": 2,
+            "fan_out": 1,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.parser.symbol_extractor",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.schemas.analysis",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.schemas.repository",
+            "fan_in": 1,
+            "fan_out": 2,
+            "score": 3,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.architecture.circular_dependency_detector",
+            "fan_in": 1,
+            "fan_out": 1,
+            "score": 2,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.architecture.entry_point_detector",
+            "fan_in": 0,
+            "fan_out": 2,
+            "score": 2,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.database.session",
+            "fan_in": 0,
+            "fan_out": 2,
+            "score": 2,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.graph.graph_serializer",
+            "fan_in": 1,
+            "fan_out": 1,
+            "score": 2,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.parser.call_graph_builder",
+            "fan_in": 0,
+            "fan_out": 2,
+            "score": 2,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.prompt_builder",
+            "fan_in": 0,
+            "fan_out": 1,
+            "score": 1,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.models.repository_metadeta",
+            "fan_in": 0,
+            "fan_out": 1,
+            "score": 1,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.chat",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.llm",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.prompt_templates",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.ai.reasoning",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.database.models",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.graph.blast_radius",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.graph.graph_utils",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.security.dependency_checker",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.security.permission_checker",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.security.report_generator",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.security.secret_scanner",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.services.analyze_repository",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.services.generate_report",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.workflows.github_actions",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.workflows.trigger_parser",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.workflows.workflow_graph",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.api.v1.chat",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.api.v1.graph",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.api.v1.security",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        },
+        {
+            "module": "app.api.v1.workflow",
+            "fan_in": 0,
+            "fan_out": 0,
+            "score": 0,
+            "risk": "LOW"
+        }
+    ],
+    "patterns": [
+        {
+            "name": "Layered Architecture",
+            "confidence": 0.95,
+            "evidence": [
+                "Business layer detected",
+                "Persistence layer detected",
+                "Presentation layer detected"
+            ]
+        },
+        {
+            "name": "MVC",
+            "confidence": 0.6,
+            "evidence": [
+                "Presentation layer detected",
+                "Persistence layer detected"
+            ]
+        },
+        {
+            "name": "Monolithic Architecture",
+            "confidence": 0.85,
+            "evidence": [
+                "85 modules detected",
+                "Single deployable project"
+            ]
+        }
+    ],
+    "recommendations": [
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.architecture.architecture_engine",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.graph.graph_models",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.architecture.report_generator",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.services.repository_service",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.main",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.ai.embedding_generator",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.ai.vector_store",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.ai.knowledge_document_generator",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.architecture.architecture_models",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.architecture.dependency_graph",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.architecture.hotspot_detector",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.architecture.recommendation_engine",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.parser.repository_cloner",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.parser.technology_detector",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.services.analysis_service",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.services.knowledge_graph_service",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "MEDIUM",
+            "title": "Medium Coupling",
+            "module": "app.api.v1.analysis",
+            "recommendation": "Consider refactoring this module if it continues to grow."
+        },
+        {
+            "priority": "LOW",
+            "title": "Architecture Pattern",
+            "module": "Repository",
+            "recommendation": "Layered architecture detected. Continue enforcing layer separation."
+        },
+        {
+            "priority": "LOW",
+            "title": "Scalability",
+            "module": "Repository",
+            "recommendation": "Consider modularization or microservices as the project grows."
+        }
+    ],
+    "cycles": []
+}
